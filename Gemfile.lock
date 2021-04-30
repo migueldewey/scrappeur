@@ -11,6 +11,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.7.5)
     equalizer (0.0.11)
+    ffi (1.12.2)
     ffi (1.12.2-x64-mingw32)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
@@ -33,6 +34,8 @@ GEM
     mini_portile2 (2.4.0)
     multipart-post (2.1.1)
     naught (1.1.0)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.9-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     parallel (1.19.1)
@@ -44,7 +47,7 @@ GEM
     public_suffix (4.0.4)
     rainbow (3.0.0)
     rake (13.0.1)
-    rexml (3.2.4)
+    rexml (3.2.5)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -82,11 +85,13 @@ GEM
       simple_oauth (~> 0.3.0)
     unf (0.1.4)
       unf_ext
+    unf_ext (0.0.7.7)
     unf_ext (0.0.7.7-x64-mingw32)
     unicode-display_width (1.7.0)
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   dotenv
